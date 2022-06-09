@@ -1,0 +1,12 @@
+pipeline {
+    agent any
+    stages {
+        stage('build') {
+            steps {
+                echo 'Deneme 1 iki uc bessss...    yapicaksin yapicaksinnnnnn az kaldiii....'
+
+                sh 'echo Integrating Jenkins Pipeline w GitHub Webhook using Jenkinsfile'
+            }
+        }
+    }
+}
